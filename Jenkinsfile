@@ -12,11 +12,11 @@ pipeline {
 
 		stage('Test') {
 			steps {
-				echo 'Testing..'
+				echo 'sonarqube..'
 			}
 		}
 
-		stage('Deploy') {
+		stage('Fortify') {
 			steps {
 				echo 'Deploying....'
 			}

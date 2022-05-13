@@ -4,19 +4,19 @@ pipeline {
 
 	stages {
 
-		stage('Build') {
+		stage('Fortify Scan') {
 			steps {
 				echo 'Building..'
 			}
 		}
 
-		stage('Test') {
+		stage('Peforming Unit Test') {
 			steps {
 				echo 'sonarqube..'
 			}
 		}
 
-		stage('Fortify') {
+		stage('Performing Sonar Analysis') {
 			steps {
 				echo 'Deploying....'
 			}

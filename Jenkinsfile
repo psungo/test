@@ -21,6 +21,12 @@ pipeline {
 				echo 'Deploying....'
 			}
 		}
+		
+		stage('Peforming IQ Scan') {
+			steps {
+				echo 'Deploying....'
+			}
+		}
 
 	}
 }

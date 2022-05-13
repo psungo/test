@@ -28,5 +28,11 @@ pipeline {
 			}
 		}
 
+		stage('Post Build Deploy') {
+			steps {
+				echo 'Deploying....'
+			}
+		}
+
 	}
 }

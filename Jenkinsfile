@@ -10,7 +10,7 @@ pipeline {
 			}
 		}
 
-		stage('Peforming Unit Test') {
+		stage('Performing Unit Tests') {
 			steps {
 				echo 'sonarqube..'
 			}
@@ -22,7 +22,7 @@ pipeline {
 			}
 		}
 		
-		stage('Peforming IQ Scan') {
+		stage('Performing IQ Scan') {
 			steps {
 				echo 'Deploying....'
 			}
